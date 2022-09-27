@@ -1,0 +1,15 @@
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ThreeDShapes.csproj.AssemblyReference.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ThreeDShapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ThreeDShapes.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ThreeDShapes.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ThreeDShapes.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\bin\Debug\net6.0\ThreeDShapes.exe
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\bin\Debug\net6.0\ThreeDShapes.deps.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\bin\Debug\net6.0\ThreeDShapes.runtimeconfig.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\bin\Debug\net6.0\ThreeDShapes.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\bin\Debug\net6.0\ThreeDShapes.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ThreeDShapes.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\refint\ThreeDShapes.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ThreeDShapes.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ThreeDShapes.genruntimeconfig.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\ThreeDShapes\obj\Debug\net6.0\ref\ThreeDShapes.dll
