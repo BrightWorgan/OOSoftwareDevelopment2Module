@@ -14,48 +14,9 @@ using static ThreeDShapes.ThreeDShape;
 namespace ThreeDShapes
 {
     // Exercise A1
-    abstract class ThreeDShape
+    interface IHasVolume
     {
-        //// Exercise A2, Enum to store shape types
-        public enum ShapeType
-        {
-            sphere = 0,
-            cylinder = 1,
-            cone = 2,
-            cube = 3,
-            prism = 4
-        }
-        // type of shape
-        private readonly ShapeType _type;
-
-        public ShapeType Type
-        {
-
-            // getter method
-            get
-            {
-                return _type;
-            }
-        }
-
-        // // Exercise A3, constructor 
-        public ThreeDShape(ShapeType type)
-        {
-            _type = type;
-        }
-
-
-        // // Exercise A4, calculate volume function
-        public abstract decimal calVolume();
-
-        // Exercise A5 override ?/Unsure
-        public override string ToString()
-        {
-            return "This shape is a " + _type.ToString();
-        }
-
-        // Exercise A6 test the class
-        // 
+        public decimal Volume();
     }
 
 
