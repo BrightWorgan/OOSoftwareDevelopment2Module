@@ -1,0 +1,15 @@
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\Exerise1.csproj.AssemblyReference.cache
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\Exerise1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\Exerise1.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\Exerise1.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\Exerise1.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\bin\Debug\net6.0\Exerise1.exe
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\bin\Debug\net6.0\Exerise1.deps.json
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\bin\Debug\net6.0\Exerise1.runtimeconfig.json
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\bin\Debug\net6.0\Exerise1.dll
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\bin\Debug\net6.0\Exerise1.pdb
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\Exerise1.dll
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\refint\Exerise1.dll
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\Exerise1.pdb
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\Exerise1.genruntimeconfig.cache
+C:\Users\Sarah\source\repos\Exerise1\Exerise1\obj\Debug\net6.0\ref\Exerise1.dll
