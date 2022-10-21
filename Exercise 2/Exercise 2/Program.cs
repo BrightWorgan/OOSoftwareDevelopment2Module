@@ -6,9 +6,9 @@ using System.Text;
 using System.Xml;
 
 
-ToDoNote testNote = new ToDoNote("Subject SHIT", DateTime.Now, ToDoNote.Priority.high);
+ToDoNote testNote = new ToDoNote("Subject: Shopping", DateTime.Now, ToDoNote.Priority.high);
 
-ToDoList myList = new ToDoList("Colin");
+ToDoList myList = new ToDoList("Coffee");
 myList.Add(testNote);
 
-myList[0].WriteXMLToFile("helloworld.txt");
+myList[0].WriteXMLToFile("todo.xml");
