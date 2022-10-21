@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exercise_2
+{
+    public class ToDoList
+    {
+        //
+        public string listOwner { get; set; }
+
+        // construcor
+        public ToDoList() 
+        {
+            listOwner = listOwner;
+        }
+
+    }
+}
