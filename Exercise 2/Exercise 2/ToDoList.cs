@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,14 +9,29 @@ namespace Exercise_2
 {
     public class ToDoList
     {
-        //
+        // fields
         public string listOwner { get; set; }
 
-        // construcor
-        public ToDoList() 
+        private List<ToDoNote> ListOfNotes;
+
+        public ToDoNote this[int i]
         {
-            listOwner = listOwner;
+            get { return ListOfNotes[i];  }
         }
+
+        // constructor
+        public ToDoList(string _listOwner)
+        {
+            listOwner = _listOwner;
+
+            ListOfNotes = new List<ToDoNote>();
+        }
+
+        public void Add(ToDoNote note)
+        {
+            ListOfNotes.Add(note);
+        }
+
 
     }
 }

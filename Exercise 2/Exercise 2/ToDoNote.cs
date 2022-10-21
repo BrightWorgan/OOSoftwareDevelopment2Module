@@ -10,7 +10,7 @@ using System.Xml;
 
 namespace Exercise_2
 {
-    class ToDoNote
+    public class ToDoNote : SerialisedXML
     {
         // list of notes
         public List<string> list = new List<string>();
@@ -47,23 +47,14 @@ namespace Exercise_2
         // serialization 
         public void WriteXMLToFile(string filename)
         {
-            XmlTextWriter x = new XmlTextWriter(filename);
-            //x.
+            XmlTextWriter x = new XmlTextWriter(filename, encoding: Encoding.UTF8);
             x.WriteStartElement("ToDoNote");
-            x.WriteAttributeString("xmlns", "x", null, "urn:1");
-            x.WriteStartElement("item", "Note Title");
+            x.WriteElementString("Note Title", noteTitle);
+            x.WriteElementString("Due Date", dueDate.ToLongDateString());
+            x.WriteElementString("Note Priority", notePriority.ToString());
             x.WriteEndElement();
-            x.WriteStartElement("item", "Date Due");
-            x.WriteEndElement();
-            x.WriteStartElement("item", "Note Priority");
-            x.WriteEndElement();
-            x.WriteEndElement();
+            x.Close();
 
-            /*info.AddValue("Note Priority: ", noteTitle, typeof(string));
-
-            info.AddValue("Date Due: ", dueDate, typeof(DateTime));
-
-            info.AddValue("Note Priority: ", notePriority, typeof(Priority));*/
         }
 
         // public void XMLTextWriter

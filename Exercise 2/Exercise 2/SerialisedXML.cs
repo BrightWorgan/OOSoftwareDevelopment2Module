@@ -8,6 +8,6 @@ namespace Exercise_2
 {
     public interface SerialisedXML
     {
-        void 
+        void WriteXMLToFile(string filename);
     }
 }

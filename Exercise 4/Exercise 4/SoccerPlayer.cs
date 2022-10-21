@@ -18,12 +18,12 @@ namespace Exercise_4
         public SoccerPosition Position { get ; set; } 
 
         // constructor
-        public SoccerPlayer(string _name, int _age, Gender _gender, SoccerPosition _position) : base("", 0, Gender.Male)
+        public SoccerPlayer(string _name = "", int _age = 0, Gender _gender = Gender.Male, SoccerPosition _position = SoccerPosition.Defender) : base(_name, _age, _gender)
         {
-            Position = SoccerPosition.Defender;
+            Position = _position;
         }
         //
-        public override string ToSting()
+        public override string ToString()
         {
             return base.ToString() + "\tPlayer's Position : " + Position;
         }

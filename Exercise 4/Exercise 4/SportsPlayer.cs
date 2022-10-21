@@ -35,7 +35,7 @@ namespace Exercise_4
         // override ToString()
         public override string ToString()
         {
-            return "\tPlayer Name: " + Name + "\n\tPlayer Age: " + Age + "\n\tPlayer Gender: " + Gender;
+            return "\tPlayer Name: " + Name + "\n\tPlayer Age: " + Age + "\n\tPlayer Gender: " + PlayerGender;
         }
     }
 }

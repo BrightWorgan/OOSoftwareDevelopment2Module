@@ -32,7 +32,7 @@ namespace Exercise_4
         private List<SoccerPlayer> players;
         
         // constructor
-        public SoccerTeam(string _teanName, Gender _teamGender, _ageLimit)
+        public SoccerTeam(string _teanName, Gender _teamGender, int _ageLimit)
         {
             players = new List<SoccerPlayer>();
             this.TeamName = _teanName;
@@ -48,7 +48,7 @@ namespace Exercise_4
         }
 
         //
-        public SoccerPlayer this[String _name]
+        public SoccerPlayer this[string _name]
         {
             get
             {
@@ -66,28 +66,19 @@ namespace Exercise_4
         //
         public void AddPlayer(SoccerPlayer sp)
         {
-            if (players.Count() == 0)
+            if (sp.Age < AgeLimit)
             {
-                players.Add(sp);
+                throw new Exception("Player too young!");
             }
-            else
+            if (sp.PlayerGender != TeamGender)
             {
-                if (PlayerAlreadyAdded(sp))
-                {
-                    throw new ArgumentException("\tPlayer already added to squad!");
-                }
-                else
-                {
-                    if (sp.Age <= AgeLimit)
-                    {
-                        if (sp.Gender == TeamGender)
-                        {
-                            players.Add(sp);
-                        }
-                    }
-                }
+                throw new Exception("Player is wrong gender!");
             }
-
+            if (PlayerAlreadyAdded(sp))
+            {
+                throw new Exception("Player already added!");
+            }
+            players.Add(sp);
         }
 
         //
