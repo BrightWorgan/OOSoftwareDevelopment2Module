@@ -29,8 +29,10 @@ foreach (Favourite i in collection)
 }
 
 collection.Remove("GitHub Page");
-
+collection["Personal Twitch"].UrlName = "fjhfjgfjhg";
 foreach (Favourite i in collection)
 {
     Console.WriteLine(i.ToString());
 }
+
+// Favourite x = collection["Personal Twitch"];

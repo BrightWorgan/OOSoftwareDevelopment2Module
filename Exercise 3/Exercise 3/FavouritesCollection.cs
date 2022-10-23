@@ -20,7 +20,7 @@ namespace Exercise_3
         }
         
         // Indexer 
-        public Favourite this [string name]{
+        public Favourite this[string name]{
             get
             { 
                 foreach (Favourite f in bookmarks)
