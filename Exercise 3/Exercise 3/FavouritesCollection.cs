@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Exercise_3
 {
-    public class FavouritesCollection
+    public class FavouritesCollection : IEnumerable
     {
         private List<Favourite> bookmarks;
         public List<Favourite> Bookmarks {
@@ -14,6 +17,21 @@ namespace Exercise_3
             {
                 return bookmarks;
             } 
+        }
+        
+        // Indexer 
+        public Favourite this [string name]{
+            get
+            { 
+                foreach (Favourite f in bookmarks)
+                {
+                    if (f.UrlName == name)
+                    {
+                        return f;
+                    }
+                }
+               throw new Exception("\t That URL Name is not in your Favourites!");
+            }
         }
 
         // constructor
@@ -50,6 +68,11 @@ namespace Exercise_3
                 }
             }
             throw new ArgumentException("\tERROR!\n\tThat URL Name does not exist");
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            return bookmarks.GetEnumerator();
         }
 
 
