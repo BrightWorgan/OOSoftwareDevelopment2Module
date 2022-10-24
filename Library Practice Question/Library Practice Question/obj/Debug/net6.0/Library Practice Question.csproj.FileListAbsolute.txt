@@ -1,0 +1,15 @@
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\Library Practice Question.csproj.AssemblyReference.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\Library Practice Question.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\Library Practice Question.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\Library Practice Question.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\Library Practice Question.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\bin\Debug\net6.0\Library Practice Question.exe
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\bin\Debug\net6.0\Library Practice Question.deps.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\bin\Debug\net6.0\Library Practice Question.runtimeconfig.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\bin\Debug\net6.0\Library Practice Question.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\bin\Debug\net6.0\Library Practice Question.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\Library Practice Question.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\refint\Library Practice Question.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\Library Practice Question.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\Library Practice Question.genruntimeconfig.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Library Practice Question\Library Practice Question\obj\Debug\net6.0\ref\Library Practice Question.dll

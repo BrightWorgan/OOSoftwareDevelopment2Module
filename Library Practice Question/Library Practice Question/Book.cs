@@ -39,14 +39,27 @@ namespace Library_Practice_Question
         // class fields
         //ISBN
         private string bookISBN;
-        public string BookISBN { get { return bookISBN; } set { bookISBN = value; } }
+        public string BookISBN 
+        { 
+            get { return bookISBN; } 
+            set { bookISBN = value; } 
+        }
             
         //Name
         private string bookName;
-        public string BookName { get { return bookName; } set { bookName = value; } }
-               
-         // Main Category
-         public Genre bookCategory { get { return bookCategory; } set { bookCategory = value; } }
+        public string BookName 
+        {
+            get { return bookName; } 
+            set { bookName = value; } 
+        }
+
+        // Main Category
+        private Genre bookCategory;
+         public Genre BookCategory
+        { 
+            get { return bookCategory; } 
+            set { bookCategory = value; }
+        }
 
         // Extra Category
 
