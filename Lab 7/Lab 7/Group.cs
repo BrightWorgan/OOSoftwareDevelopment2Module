@@ -21,6 +21,7 @@ namespace Lab_7
 
         // collection of students attending the class
         // i.e. an ArrayList of Students
+        List<Student> Lecture = new List<Student>();
 
         // constructor
         public Group(string _cRN, string _lecturerName)
