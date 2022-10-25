@@ -45,7 +45,7 @@ TULibrary.Add(Book15);
     
     
 
-// ToString() to print out all books from the library
+/*// ToString() to print out all books from the library
 foreach (Book b in TULibrary)
 {
     Console.WriteLine(b.ToString());
@@ -60,11 +60,11 @@ foreach (Book b in TULibrary)
 {
     Console.WriteLine(b.ToString());
 }
-
+*/
 // Find book by ISBN
 
 // Find Book by Genre
-foreach (Book c in TULibrary.BookCount(Genre.History))
+foreach (Book c in TULibrary.BookCount(Genre.Horror))
 {
     Console.WriteLine(c.ToString());
 }

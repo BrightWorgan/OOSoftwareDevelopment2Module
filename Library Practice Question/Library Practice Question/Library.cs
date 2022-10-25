@@ -60,7 +60,7 @@ namespace Library_Practice_Question
             {
                 if (novel.BookISBN == book.BookISBN)
                 {
-                    /*if (novel.MaxLoantime == ReferenceBook.MaxLoanTime)
+                    /*if (book.MaxLoantime == ReferenceBook.MaxLoanTime)
                     {
                         throw new Exception("\t*** ERROR ***\n\tThat book cannot be removed!");
                     }*/
