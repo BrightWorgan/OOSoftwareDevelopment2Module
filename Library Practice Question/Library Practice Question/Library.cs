@@ -20,18 +20,18 @@ namespace Library_Practice_Question
             } 
         }
 
-        
         // Constructor
         public Library()
         {
             librarySystem = new List<Book>();
         }
-
+        
+        /*
         public Library(Book oneBook)
         {
             librarySystem = new List<Book>();
             librarySystem.Add(oneBook);
-        }
+        }*/
 
 
         // Add Book to Library
