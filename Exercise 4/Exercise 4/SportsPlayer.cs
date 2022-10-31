@@ -22,7 +22,7 @@ namespace Exercise_4
         // player age
         public int Age { get; set; }
         // gender
-        public Gender PlayerGender { get; set; }
+        public Gender PlayerGender { get; set; }        
 
         // constructor
         public SportsPlayer(string _name, int _age, Gender _gender)

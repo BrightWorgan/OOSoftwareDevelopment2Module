@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sarah\\source\\repos\\OOSoftwareDevelopment2Module\\Exercise 3\\Exercise 3\\Exercise 3.csproj",
-      "projectName": "Exercise 3",
-      "projectPath": "C:\\Users\\Sarah\\source\\repos\\OOSoftwareDevelopment2Module\\Exercise 3\\Exercise 3\\Exercise 3.csproj",
+      "projectUniqueName": "C:\\Users\\Sarah\\source\\repos\\OOSoftwareDevelopment2Module\\Exercise 3\\Exercise 3\\Exercise3.csproj",
+      "projectName": "Exercise3",
+      "projectPath": "C:\\Users\\Sarah\\source\\repos\\OOSoftwareDevelopment2Module\\Exercise 3\\Exercise 3\\Exercise3.csproj",
       "packagesPath": "C:\\Users\\Sarah\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Sarah\\source\\repos\\OOSoftwareDevelopment2Module\\Exercise 3\\Exercise 3\\obj\\",
       "projectStyle": "PackageReference",

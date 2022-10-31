@@ -1,0 +1,15 @@
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\bin\Debug\net6.0\LambdaAndDelegates.exe
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\bin\Debug\net6.0\LambdaAndDelegates.deps.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\bin\Debug\net6.0\LambdaAndDelegates.runtimeconfig.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\bin\Debug\net6.0\LambdaAndDelegates.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\bin\Debug\net6.0\LambdaAndDelegates.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\LambdaAndDelegates.csproj.AssemblyReference.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\LambdaAndDelegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\LambdaAndDelegates.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\LambdaAndDelegates.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\LambdaAndDelegates.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\LambdaAndDelegates.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\refint\LambdaAndDelegates.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\LambdaAndDelegates.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\LambdaAndDelegates.genruntimeconfig.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\LambdaAndDelegates\LambdaAndDelegates\obj\Debug\net6.0\ref\LambdaAndDelegates.dll
