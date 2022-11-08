@@ -1,0 +1,15 @@
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\CA2Practice1.csproj.AssemblyReference.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\CA2Practice1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\CA2Practice1.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\CA2Practice1.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\CA2Practice1.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\bin\Debug\net6.0\CA2Practice1.exe
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\bin\Debug\net6.0\CA2Practice1.deps.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\bin\Debug\net6.0\CA2Practice1.runtimeconfig.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\bin\Debug\net6.0\CA2Practice1.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\bin\Debug\net6.0\CA2Practice1.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\CA2Practice1.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\refint\CA2Practice1.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\CA2Practice1.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\CA2Practice1.genruntimeconfig.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\CA2Practice1\CA2Practice1\obj\Debug\net6.0\ref\CA2Practice1.dll

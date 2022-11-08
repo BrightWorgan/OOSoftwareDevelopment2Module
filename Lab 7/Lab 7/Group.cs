@@ -21,7 +21,7 @@ namespace Lab_7
 
         // collection of students attending the class
         // i.e. an ArrayList of Students
-        List<Student> Lecture = new List<Student>();
+        private List<Student> Lecture = new List<Student>();
 
         // constructor
         public Group(string _cRN, string _lecturerName)
@@ -31,8 +31,36 @@ namespace Lab_7
         }
 
         // add student method which throws an exception if ID already exists
+        public void AddStudent(Student _student)
+        {
+            if (Lecture.Count > 0)
+            {
+                Student found = Lecture.FirstOrDefault(p => p.StudentID.Equals(_student.StudentID));
+                if (found != null)
+                {
+                    throw new ArgumentException();
+                }
+            }
+           
+            Lecture.Add(_student);
+        }
+            
 
         // index 1
+        public Student this[int i]
+        {
+            get
+            {
+                if ((i>=0) && (i<Lecture.Count))
+                {
+                    return Lecture[i];
+                }
+                else
+                {
+                    throw new ArgumentException("\n\t*** ERROR ***\n\tIndex out of range!");
+                }
+            }
+        }
         // index 2 
 
     }

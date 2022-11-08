@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,39 +9,42 @@ namespace CA2Practice1
 {
    public class Item
     {
-        // a.	the product code (it must be 5 characters in length at minimum and must not contain white space characters)
-        public int ProductId { 
+        // the product code (it must be 5 characters in length at minimum and must not contain white space characters)
+        private string productId;
+        public string ProductId 
+        {
             get
             {
-                if (ProductId < 5)
-                {
-                    return ProductId;
-                }
+                return productId;
             }
             set 
-            { 
-                ProductId = value; 
+            {
+                if (String.IsNullOrWhiteSpace(value) || (value.Length < 5)
+                {
+                    throw new ArgumentException("\n\t*** ERROR ***\n\tInvaild Product ID!");
+                }
+                productId = value;
             }
         }
-        // b.the product description – no validation required
+        // the product description – no validation required
        
         public string ProductDescription { get; set; }
 
-        // c.the product price(euros) – no validation required
+        // the product price(euros) – no validation required
         public double Price { get; set; }
 
         // constructor
-        public Item(int ProductId, string ProductDescription, double Price)
+        public Item(string _ProductId, string _ProductDescription, double _Price)
         {
-            ProductId = 0;
-            ProductDescription = "";
-            Price = 0;
+             ProductId = _ProductId;
+            ProductDescription = _ProductDescription;
+            Price = _Price;
         }
 
-        // ToStrigg()
+        // ToString()
         public override string ToString()
         {
-            return "\n\tProduct ID: " + "\n\tProduct Description: " + ProductDescription + "\n\tProduct Price: "  + Price;
+            return String.Format("\n\tProduct ID: {0}\n\tProduct Description: {1}\n\tProduct Price: {2}", ProductId, ProductDescription, Price) ;
         } 
 
     }

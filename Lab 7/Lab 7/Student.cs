@@ -38,5 +38,11 @@ namespace Lab_7
             studentName = _studentName;
             studentGender = _studentgender;
         }
+
+        // Tostring()
+        public override string ToString()
+        {
+            return String.Format("\n\tStudent Name: {0}\n\tStudent ID: {1}\n\tStudent Gender: {2}", StudentID, StudentName, StudentGender);
+        }
     }
 }
