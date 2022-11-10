@@ -1,0 +1,15 @@
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\bin\Debug\net6.0\Parser mini project.exe
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\bin\Debug\net6.0\Parser mini project.deps.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\bin\Debug\net6.0\Parser mini project.runtimeconfig.json
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\bin\Debug\net6.0\Parser mini project.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\bin\Debug\net6.0\Parser mini project.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\Parser mini project.csproj.AssemblyReference.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\Parser mini project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\Parser mini project.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\Parser mini project.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\Parser mini project.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\Parser mini project.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\refint\Parser mini project.dll
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\Parser mini project.pdb
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\Parser mini project.genruntimeconfig.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Parser mini project\Parser mini project\obj\Debug\net6.0\ref\Parser mini project.dll
