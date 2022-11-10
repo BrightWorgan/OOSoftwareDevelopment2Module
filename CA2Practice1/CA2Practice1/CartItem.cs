@@ -31,7 +31,7 @@ namespace CA2Practice1
         }
 
         // constructor
-        public CartItem(int ProductId, string ProductDescription, double Price, int _Quantity) : base(ProductId, ProductDescription, Price)
+        public CartItem(string ProductId, string ProductDescription, double Price, int _Quantity) : base(ProductId, ProductDescription, Price)
         {
             Quantity = _Quantity;
         }

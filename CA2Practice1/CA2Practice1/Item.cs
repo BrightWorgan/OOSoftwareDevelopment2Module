@@ -19,7 +19,7 @@ namespace CA2Practice1
             }
             set 
             {
-                if (String.IsNullOrWhiteSpace(value) || (value.Length < 5)
+                if (String.IsNullOrWhiteSpace(value) || (value.Length < 5))
                 {
                     throw new ArgumentException("\n\t*** ERROR ***\n\tInvaild Product ID!");
                 }

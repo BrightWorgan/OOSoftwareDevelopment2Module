@@ -61,7 +61,18 @@ namespace Lab_7
                 }
             }
         }
+        
         // index 2 
+        public Student this[String StudentID]
+        {
+            get
+            {
+                Student found = Lecture.FirstOrDefault(p => p.StudentID.Equals(_student.StudentID));
+                if (found != null)
+                {
+
+                }
+        }
 
     }
 }

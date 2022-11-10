@@ -14,11 +14,10 @@ namespace CA2Practice1
         // Add a method to add an Item into the cart
         public void UpdateCart(Item _product)
         {
-            CartItem found = cart.FirstOrDefault(p => p.ProductId == _product.ProductId);
-            
+            CartItem found = cart.FirstOrDefault(p => p.ProductId.ToUpperInvariant().Equals(_product.ProductId.ToUpperInvariant()));
             if (found == null)
             {
-                cart.Add(new CartItem() { ProductId = _product})
+                cart.Add(new CartItem() { ProductId = _product.ProductId, ProductDescription = _product.ProductDescription, Price = _product.Price, Quantity = 1 });
             }
             else
             {
@@ -31,23 +30,24 @@ namespace CA2Practice1
 
         // Add a method which calculates and reports the total price of all items in the cart
 
-        /*public int CalculateTotal(CartItem product)
+        public int CalculateTotal()
         {
-            int count = 0;
-            foreach (i in cart)
-            {
-                count += 1;
-            }
-        }*/
+            return (int)cart.Sum(p => p.Price * p.Quantity);
+        }
 
-        public CartItem this[String _code]
+        public int Count()
+        {
+            return cart.Count();
+        }
+
+        /*public CartItem this[String _ProductId]
         {
             get
             {
-                CartItem found = cart.FirstOrDefault(p=>p.ProductId.ToUpperInvariant().Equals(_ProductId.ToUpper)
+                CartItem found = cart.FirstOrDefault(p => p.ProductId.ToUpperInvariant().Equals(_ProductId.ToUpperInvariant));
 
             }
-        }
+        }*/
 
     }
 }
