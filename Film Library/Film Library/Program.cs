@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Film_Library;
 
-//Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, World!");
 
 /*
  * Films to Add! 
@@ -79,3 +79,9 @@ checklList.Add(f17);
 checklList.Add(f18);
 checklList.Add(f19);
 checklList.Add(f20);
+
+//
+Console.WriteLine("\tPlease enter a film!\n\t: ");
+
+// 
+public string userFilm = Console.ReadLine();

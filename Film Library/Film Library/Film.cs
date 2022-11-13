@@ -64,6 +64,10 @@ namespace Film_Library
             this.Rating = Rating;
         }
 
-       
+        // ToString()
+        public override string ToString()
+        {
+            return String.Format("\tFilm Title: {0}\n\tRelease Year: {1}\n\tGenres: {2}, {3}, {4}\n\tRating: {5}\n\t_______________", Title, ReleaseYr, Primary, Secondary, Tertiary, Rating);
+        }
     }
 }
