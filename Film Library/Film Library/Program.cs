@@ -81,7 +81,12 @@ checklList.Add(f19);
 checklList.Add(f20);
 
 //
-Console.WriteLine("\tPlease enter a film!\n\t: ");
+//Console.WriteLine("\tPlease enter a film!\n\t: ");
 
 // 
-public string userFilm = Console.ReadLine();
+//public string userFilm = Console.ReadLine();
+
+
+// AddItem() RemoveFilm AddFiveStarItem
+
+watchList.AddItem();

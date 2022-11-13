@@ -1,0 +1,5 @@
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Car Management CAPractice\Car Management CAPractice\obj\Debug\net6.0\Car Management CAPractice.csproj.AssemblyReference.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Car Management CAPractice\Car Management CAPractice\obj\Debug\net6.0\Car Management CAPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Car Management CAPractice\Car Management CAPractice\obj\Debug\net6.0\Car Management CAPractice.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Car Management CAPractice\Car Management CAPractice\obj\Debug\net6.0\Car Management CAPractice.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\Car Management CAPractice\Car Management CAPractice\obj\Debug\net6.0\Car Management CAPractice.csproj.CoreCompileInputs.cache

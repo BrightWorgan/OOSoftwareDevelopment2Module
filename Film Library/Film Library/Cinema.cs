@@ -33,14 +33,13 @@ namespace Film_Library
 
 
         // remove a film
-     
-        public void RemoveFilm()
+        public void RemoveFilm(Film userFilm)
         {
             foreach (Film film in watchNext)
             {
-                if (film.Title == )
+                if (film.Title == userFilm.Title)
                 {
-                    watchNext.TryDequeue(film);
+                    watchNext.TryDequeue(out userFilm);
 
                 }
             }
