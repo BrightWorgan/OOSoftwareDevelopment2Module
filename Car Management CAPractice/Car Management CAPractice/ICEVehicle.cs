@@ -13,7 +13,7 @@ namespace Car_Management_CAPractice
         public int KmsPerLitre { get; set; }
 
         // constructor
-        public ICEVehicle(VechType _make, string _model, DateOnly _manufactureDate, string _reg, int _kiloWattHours, int _kmsPerKWattHour, int _litres, int _kmsPerLitre) : base(_make, _model, _manufactureDate, _reg)
+        public ICEVehicle(VechType _make, string _model, DateOnly _manufactureDate, string _reg, int _litres, int _kmsPerLitre) : base(_make, _model, _manufactureDate, _reg)
         {
             this.Litres = _litres;
             this.KmsPerLitre = _kmsPerLitre;

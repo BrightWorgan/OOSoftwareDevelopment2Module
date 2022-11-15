@@ -14,7 +14,7 @@ namespace Car_Management_CAPractice
         Volkswagon,
         Toyota
     }
-    public abstract class DeliveryVehicle
+    public abstract class DeliveryVehicle : IComparable
     {
         // make, model, manufacture date, registration
         private VechType make;
@@ -54,6 +54,11 @@ namespace Car_Management_CAPractice
         public abstract double RemainingDistance();
         
         public abstract string Refuel();
-        
+
+        public int CompareTo(object? obj)
+        {
+            return((DeliveryVehicle)obj).Reg.CompareTo(Reg);
+        }
+
     }
 }
