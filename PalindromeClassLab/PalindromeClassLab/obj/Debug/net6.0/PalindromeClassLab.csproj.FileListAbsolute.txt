@@ -1,0 +1,5 @@
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\PalindromeClassLab\PalindromeClassLab\obj\Debug\net6.0\PalindromeClassLab.csproj.AssemblyReference.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\PalindromeClassLab\PalindromeClassLab\obj\Debug\net6.0\PalindromeClassLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\PalindromeClassLab\PalindromeClassLab\obj\Debug\net6.0\PalindromeClassLab.AssemblyInfoInputs.cache
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\PalindromeClassLab\PalindromeClassLab\obj\Debug\net6.0\PalindromeClassLab.AssemblyInfo.cs
+C:\Users\Sarah\source\repos\OOSoftwareDevelopment2Module\PalindromeClassLab\PalindromeClassLab\obj\Debug\net6.0\PalindromeClassLab.csproj.CoreCompileInputs.cache
