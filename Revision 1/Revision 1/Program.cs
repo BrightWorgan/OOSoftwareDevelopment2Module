@@ -2,11 +2,14 @@
 //Console.WriteLine("Hello, World!");
 
 //
+using Revision_1;
+using System.Xml.Linq;
+
 string[] Management = { "CEO", "CTO", "Hiring_Managemnet",  "Sales_Department_Head",  "Project_Manager" };
 string[] Development = { "Lead_Developer", "Senior_Developer", "Mid_Level_Developer", "Developer", "Dev_Ops_Department_Head", "Dev_Ops_Lead", "Dev_Ops_Engineer", "Quality_Assurance_Department_Head", "Quality_Assurance_Lead", "Senior_Quality_Assurance_Engineer", "Quality_Assurance_Engineer", };
 string[] Marketing = { "Marketing_Department_Head", "Social_Media_Manager", "Social_Media_Engineer", "Graphic_Designer",};
 string[] IT = { "IT_Department_Head", "IT_Admin", "IT_Engineer", "", };
-string[] HR = { "Health_and_Safety_Officer", , };
+string[] HR = { "Health_and_Safety_Officer",};
 string[] Legal = { "Legal_Department_Head", " Governance_Risk_and_Compliance_Department_Head", " Governance_Risk_and_Compliance_Engineer", "Customer_Service_Officer", };
 string[] Assessibilty = {"Assessibility_Officer",};
 string[] Education = { "Education_Outreach_Officer", "PHD", "Student_Work_Experience" };
@@ -16,7 +19,43 @@ string[] Cleaning = { "Cleaning_Team_Manager", " Cleaning_Team_Supervisor", "Cle
 string[] Security = { "Security_Department_Head", "Cyber_Security_Supervisor", "Cyber_Security_Officer", "Head_of_Security", "Security_Supervisor", "Security_Guard", "", "", "", "", };
 string[] Other = { " Secretary", "Logistics_Supervisor", "Logistics_Officer", };
 
+
+// list of staff members
+List<StaffMember> Company = new List<StaffMember>();
+Company.Add(new StaffMember("Sarah Halford", 29, Gender.Female, CompanyPosition.Development, DietartyRequirement.Vegan_Plant_Based, SafetyEquipment.Basic_Office, CommuteTypes.Walk, CommuteTypes.Run, "BrightWorgan", "PassWo1d12345"));
+
+
 // A staff member can login in
 // A manager can add a new staff member
 // A security (i.e. Cyber_Security_Officer and up), can rest a login
 // 
+
+//
+Console.WriteLine("Name ??? ");
+string user = Console.ReadLine();
+if (!string.IsNullOrEmpty(user))
+
+    Console.WriteLine("yay !");
+    foreach (StaffMember i in Company)
+{
+    Console.WriteLine(i);
+    if (i.Name == user) ;
+    Console.WriteLine("Woo");
+}
+
+Console.WriteLine("\t\t\t___ Company System : ___\n");
+Console.WriteLine("\tPLEASE LOGIN");
+Console.WriteLine("\tAre you a employyee of the COMPANY ?\n\t Yes or No Only");
+string employed = Console.ReadLine();
+if (employed != null)
+    if (employed != "No")
+        Console.WriteLine("\ttesty wory");
+    /*else (Console.WriteLine("\tAre you a employyee of the COMPANY ?\n\t Yes or No Only"));
+    string employed2 = Console.ReadLine();
+    if (employed2 != null)
+        if (employed2 != "No")
+            Console.WriteLine("\ttesty worky 2");*/
+Console.WriteLine("\t\t\t___________\n");
+string test3 = Console.ReadLine();
+Console.WriteLine("\t\t\t___________\n");
+
